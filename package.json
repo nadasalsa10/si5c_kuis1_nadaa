@@ -4,10 +4,12 @@
   "description": "Tugas 1 RESTful API Express.js",
   "main": "app.js",
   "scripts": {
-  "start": "node app.js",
-  "dev": "nodemon app.js"
-},
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
   "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
     "express": "^5.2.1"
   }
 }
